@@ -1,0 +1,53 @@
+:root{
+    --color1:rgb(237, 250, 167);
+    --color2:rgb(86, 240, 99);
+    --color3: orange;
+
+}
+.button-gruop{
+    display: flex;
+    gap: 1px;
+    
+}
+.button-gruop > button{
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 10px 15px;
+    cursor: pointer
+    ;
+    flex: 0 1 100px;
+    border: 2px solid var(--color1);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button-gruop > button:first-child{
+    border-radius: 30px 10px 10px 30px ;
+
+}
+.button-gruop > button:last-child{
+    border-radius: 10px 30px 30px 10px;
+}
+.button-gruop > button:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+    border-color: var(--color2);
+}
+
+body h1{
+   
+    color: var(--color3);
+    text-align: center;
+  
+}
+body h1:hover{
+    cursor: pointer;
+    background-color: var(--color3);
+    color:brown
+}
+body p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0 0 0;
+}
